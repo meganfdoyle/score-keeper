@@ -5,7 +5,7 @@ const p2Score = document.querySelector('#p2Score');
 const resetBtn = document.querySelector('#reset');
 const winningScoreSelect = document.querySelector('#playto');
 
-let winningScore = parseInt(winningScoreSelect.innerText);
+let winningScore = parseInt(winningScoreSelect.value);
 let isGameOver = false;
 
 
